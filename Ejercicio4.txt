@@ -1,0 +1,12 @@
+Ejercicio
+
+1.	Crea un input field en el componente App con un change listener que obtiene y muestra el texto insertado también en un párrafo.
+2.	Crea un componente (ValidationComponent) que recibe la longitud del texto como una propiedad (prop).
+3.	Dentro de ValidationComponent, muestra o bien “Texto demasiado corto” o “Texto suficientemente largo” en función de una longitud mínima del texto. Por ejemplo 5 caracteres.
+4.	Crea otro componente (CharComponent) para mostrar un solo carácter y con estos estilos inline (display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
+5.	Renderiza una lista de CharComponents donde cada uno recibe una letra del texto insertado. Haz que reciba el carácter como propiedad (prop).
+6.	Cuando se pulsa un CharComponent se debe eliminar del texto.
+7.	Nota: ten en cuenta que en JavaScript los strings son prácticamente arrays. Por ejemplo:
+const unArray = unString.split('');
+// … se procesa los caracteres mediante sus índices en el array
+const nuevoTexto = unArray.join('');
